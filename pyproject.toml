@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "csit-challenge"
+version = "0.1.0"
+description = ""
+authors = ["hewliyang <hewliyang@u.nus.edu>"]
+readme = "README.md"
+packages = [{ include = "csit_challenge" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+librosa = "^0.10.1"
+matplotlib = "3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
